@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do bailão perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p> Outro dia eu estava em casa ate que achei uma carta do meu mano que dizia "tenho pistas para encontrar um bailão perdido encosta" não sabia o local mas fui atrâs </p>
+            <button class="btn-proximo" data-proximo="1">São Paulo</button>
+            <button class="btn-proximo" data-proximo="2">Rio De Janeiro</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada em SP decidi ir procuar seu amigo ou ir em bora .</p>
+            <button class="btn-proximo" data-proximo="3">Procurar seu amigo</button>
+            <button class="btn-proximo" data-proximo="4">ir em bora</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você chega ao Rio de Janeiro e decidi procuar seu amigo </p>
+            <button class="btn-proximo" data-proximo="5">Nas praias</button>
+            <button class="btn-proximo" data-proximo="6">Ver na favela</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Em São Paulo voce acha seu parceiro que fala que temos que ir a o amazonas.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas favelas voce descobre um mano que tambem conhece desse baile e te fala para ir para o amazonas.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as praias, você não encontra nada .</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No Amazonas, a busca pelo baile perdido se intensifica.Você se depara com duas favelas cada uma para um lado.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir a favela da esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir a favela da direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às igrejas, você finalmente encontra o mapa antigo que leva a o amazonas!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>A favela À esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada do
+                baile perdido.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o bailão perdido</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>A favela a direita termina em uma área perigosa. Apesar de belas vistas, não há sinais do bailão perdido
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar a outra favela</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro do bailão perdido voce encontra o melhor baile da sua vida e jura que nunca mais saira dali vai. vai viver!</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo a favela à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
+                que levam à o bailão perdido.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
